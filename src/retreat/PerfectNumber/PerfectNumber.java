@@ -1,6 +1,5 @@
 package retreat.PerfectNumber;
 
-import java.util.Comparator;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -32,10 +31,5 @@ public class PerfectNumber {
         } else {
             return STATE.PERFECT;
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(PerfectNumber.divisors(6));
-        System.out.println(PerfectNumber.divisors(28));
     }
 }
