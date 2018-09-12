@@ -1,7 +1,8 @@
-package retreat.PerfectNumber;
+package PerfectNumber.imperative;
 
 import java.util.Set;
 import java.util.HashSet;
+import PerfectNumber.STATE;
 
 
 public class PerfectNumber {
@@ -33,3 +34,4 @@ public class PerfectNumber {
         }
     }
 }
+

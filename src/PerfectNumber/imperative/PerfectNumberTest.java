@@ -1,12 +1,13 @@
-package retreat.PerfectNumber;
+package PerfectNumber.imperative;
 
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-import static retreat.PerfectNumber.STATE.ABUNDANT;
-import static retreat.PerfectNumber.STATE.DEFICIENT;
-import static retreat.PerfectNumber.STATE.PERFECT;
+import static PerfectNumber.STATE.ABUNDANT;
+import static PerfectNumber.STATE.DEFICIENT;
+import static PerfectNumber.STATE.PERFECT;
 import org.junit.Test;
+
 public class PerfectNumberTest {
     @Test
     public void test6Perfect() {

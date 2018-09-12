@@ -1,4 +1,4 @@
-package retreat.PerfectNumber;
+package PerfectNumber;
 
 public enum STATE {
     ABUNDANT,
