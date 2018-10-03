@@ -1,4 +1,4 @@
-package Lab3;
+package Lab2;
 
 import java.util.function.Function;
 import java.util.stream.IntStream;
