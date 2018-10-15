@@ -44,6 +44,14 @@ class RTUSetTest extends FunSuite {
     assert(RTUSet.contains(s1,-1))
   }
 
+  test("Map2 set works correctly") {
+    val s1 = RTUSet.mapSet(RTUSet.union(RTUSet.singletonSet(1), RTUSet.singletonSet(2)), (x: Int) => x * 10)
+    assert(RTUSet.contains(s1, 10))
+    assert(RTUSet.contains(s1, 20))
+    assert(!RTUSet.contains(s1, 1))
+    assert(!RTUSet.contains(s1, 2))
+  }
+
   test("To String works correctly") {
     val s = RTUSet.union(RTUSet.singletonSet(1),RTUSet.singletonSet(2))
     assert(RTUSet.toString(s) == "{1,2}")

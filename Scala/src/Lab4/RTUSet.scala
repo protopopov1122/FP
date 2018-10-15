@@ -59,6 +59,8 @@ object RTUSet {
 
   def map(s: Set, f: Int => Int): Set = (x: Int) => s(f(x))
 
+  def mapSet(s: Set, f: Int => Int): Set = (x: Int) => !forall(s, f(_) != x)
+
   /**
     * Displays the contents of a set
     */
